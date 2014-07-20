@@ -12,6 +12,10 @@ RSpec.describe 'Awesome feature' do
     expect(truth).to be true
   end
 
+  xit 'Bad scenario' do
+    expect(truth).to be false
+  end
+
   shared_examples 'Comprehensive scenarios' do
     it 'Handsome scenario' do
       expect(lie).to be false

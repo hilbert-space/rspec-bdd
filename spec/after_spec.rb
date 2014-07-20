@@ -13,6 +13,10 @@ RSpec.feature 'Awesome feature' do
     expect(truth).to be true
   end
 
+  xscenario 'Bad scenario' do
+    expect(truth).to be false
+  end
+
   shared_scenarios 'Comprehensive scenarios' do
     scenario 'Handsome scenario' do
       expect(lie).to be false
