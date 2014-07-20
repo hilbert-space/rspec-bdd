@@ -1,6 +1,3 @@
-lib = File.expand_path('../lib', __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-
 Gem::Specification.new do |spec|
   spec.name          = 'rspec-bdd'
   spec.version       = '0.0.1'
@@ -16,6 +13,8 @@ Gem::Specification.new do |spec|
   spec.files         = `git ls-files -z`.split("\x0")
   spec.test_files    = spec.files.grep(%r{^spec/})
   spec.require_paths = [ 'lib' ]
+
+  spec.required_ruby_version = '>= 1.8.7'
 
   spec.add_dependency 'rspec', '~> 3.0'
 
