@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = 'rspec-bdd'
-  spec.version       = '0.0.1'
+  spec.version       = '0.0.2'
   spec.authors       = [ 'Ivan Ukhov' ]
   spec.email         = [ 'ivan.ukhov@gmail.com' ]
   spec.summary       = 'Behavior-driven vocabulary for RSpec'

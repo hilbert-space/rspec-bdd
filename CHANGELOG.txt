@@ -1,0 +1,5 @@
+## RSpec BDD 0.0.2 (July 20, 2014)
+
+* Compatibility with Ruby >= 1.8.7.
+
+## RSpec BDD 0.0.1 (July 20, 2014)

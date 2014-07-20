@@ -1,4 +1,4 @@
-# RSpec BDD
+# RSpec BDD [![Gem Version](https://badge.fury.io/rb/rspec-bdd.svg)](http://badge.fury.io/rb/rspec-bdd) [![Dependency Status](https://gemnasium.com/IvanUkhov/rspec-bdd.svg)](https://gemnasium.com/IvanUkhov/rspec-bdd) [![Build Status](https://travis-ci.org/IvanUkhov/rspec-bdd.svg?branch=master)](https://travis-ci.org/IvanUkhov/rspec-bdd)
 
 The library extends the DSL of [RSpec](https://github.com/rspec/rspec)
 with the following methods:
