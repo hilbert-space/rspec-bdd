@@ -71,6 +71,10 @@ RSpec.feature 'Awesome feature' do
 end
 ```
 
+## Acknowledgments
+
+The library is inspired by [Capybara](https://github.com/jnicklas/capybara).
+
 ## Contributing
 
 1. [Fork](https://help.github.com/articles/fork-a-repo) the project.
